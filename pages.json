@@ -30,7 +30,7 @@
         {
           "path": "pages/cate/cate",
           "style": {
-            "navigationBarTitleText": "记录",//设置页面标题文字
+            "navigationBarTitleText": "分类",//设置页面标题文字
             "enablePullDownRefresh":true//开启下拉刷新
           }
         },
