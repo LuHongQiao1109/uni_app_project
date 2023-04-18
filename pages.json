@@ -16,7 +16,7 @@
         {
 		      "path": "pages/home/home",
 		      "style": {
-		        "navigationBarTitleText": "首页",//设置页面标题文字
+		        "navigationBarTitleText": "购物车首页",//设置页面标题文字
 		        "enablePullDownRefresh":true//开启下拉刷新
 		      }
 		    },
