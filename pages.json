@@ -11,6 +11,7 @@
 			"height": "60px"
 		}
 	},
+  "subPackages": [ { "root": "subpkg", "pages": [] } ],
 	"pages": [
 		// pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
         {
@@ -40,6 +41,15 @@
             "navigationBarTitleText": "我的",//设置页面标题文字
             "enablePullDownRefresh":true//开启下拉刷新
           }
+        }
+        ,{
+            "path" : "subpkg/goods_detail/goods_detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
         }
     ],
   "globalStyle": {
